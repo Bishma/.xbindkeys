@@ -37,9 +37,9 @@
 #keystate_capslock = enable
 #keystate_scrolllock= enable
 
-"xdotool key --clearmodifiers n"
+"$HOME/.xbindkeys/mouse_button.sh 8"
     b:8 | Release
-"xdotool key --clearmodifiers p"
+"$HOME/.xbindkeys/mouse_button.sh 9"
     b:9 | Release
 
 ##################################
