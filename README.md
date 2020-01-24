@@ -28,11 +28,10 @@ Alternatively you could invoke xbindkeys using the config flag
 
 ### Mouse buttons 8 and 9
 
-- [x] Firefox: Feedly
+- [x] Firefox: Feedly 
 - [x] Firefox: Twitter
 - [x] Firefox: Reddit
 - [ ] Firefox: Other sites *blocked*
 - [ ] Volume via mouse wheel
-- [ ] Spotify
-- [ ] Oxygen Not Included: Cancel
-- [ ] Oxygen Not Included: Destruct
+- [ ] Spotify: Next/Previous Track
+- [ ] Oxygen Not Included: Cancel/Destruct
