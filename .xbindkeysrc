@@ -37,8 +37,10 @@
 #keystate_capslock = enable
 #keystate_scrolllock= enable
 
+# Handle mouse button 8 presses
 "$HOME/.xbindkeys/mouse_button.sh 8"
     b:8 | Release
+# Handle mouse button 9 presses
 "$HOME/.xbindkeys/mouse_button.sh 9"
     b:9 | Release
 
