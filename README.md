@@ -23,3 +23,16 @@ Alternatively you could invoke xbindkeys using the config flag
 [xdotool](http://manpages.ubuntu.com/manpages/trusty/man1/xdotool.1.html) is a commandline X11 manipulation / automation tool. I use it to send keystrokes to and reading information from the active window in Gnome.
 
     sudo apt install xdotool
+
+## Automations
+
+### Mouse buttons 8 and 9
+
+- [x] Firefox: Feedly
+- [x] Firefox: Twitter
+- [x] Firefox: Reddit
+- [ ] Firefox: Other sites *blocked*
+- [ ] Volume via mouse wheel
+- [ ] Spotify
+- [ ] Oxygen Not Included: Cancel
+- [ ] Oxygen Not Included: Destruct
