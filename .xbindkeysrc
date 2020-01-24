@@ -43,6 +43,10 @@
 # Handle mouse button 9 presses
 "$HOME/.xbindkeys/mouse_button.sh 9"
     b:9 | Release
+"$HOME/.xbindkeys/mouse_button.sh alt4"
+    alt + b:4
+"$HOME/.xbindkeys/mouse_button.sh alt5"
+    alt + b:5
 
 ##################################
 # End of xbindkeys configuration #

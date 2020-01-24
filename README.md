@@ -32,6 +32,6 @@ Alternatively you could invoke xbindkeys using the config flag
 - [x] Firefox: Twitter
 - [x] Firefox: Reddit
 - [ ] Firefox: Other sites *blocked*
-- [ ] Volume via mouse wheel
+- [x] Volume via mouse wheel
 - [ ] Spotify: Next/Previous Track
 - [ ] Oxygen Not Included: Cancel/Destruct
