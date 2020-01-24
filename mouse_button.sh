@@ -7,7 +7,7 @@ ACTIVE_WINDOW=$(xdotool getwindowfocus getwindowname)
 
 # Get the current active browser window's URL by reading my mozilla profile
 function get_firefox_site() {
-    if [[ $ACTIVE_WINDOW =~ "Twitter" ]]; then
+    if [[ $ACTIVE_WINDOW =~ " / Twitter" ]]; then
         SITE="twitter"
     elif [[ $ACTIVE_WINDOW =~ "All Personal Feeds" ]]; then
         SITE="feedly"
