@@ -65,7 +65,7 @@ if [[ $MOUSE_BUTTON -eq 8 ]] || [[ $MOUSE_BUTTON -eq 9 ]]; then
                 fi
                 ;;
         esac
-    elif [[ $ACTIVE_WINDOW_TITLE =~ "Oxygen Not Included" ]]; then
+    elif [[ $ACTIVE_WINDOW_PROCESS == "OxygenNotInclud" ]]; then
         # When playing Oxygen Not included:
         # Cancel: button 8
         # Deconstruct: button 9
@@ -74,7 +74,7 @@ if [[ $MOUSE_BUTTON -eq 8 ]] || [[ $MOUSE_BUTTON -eq 9 ]]; then
         elif [ $MOUSE_BUTTON -eq 9 ]; then
             xdotool key --clearmodifiers x
         fi
-    elif [[ $ACTIVE_WINDOW_TITLE =~ "Spotify Premium" ]]; then
+    elif [[ $ACTIVE_WINDOW_PROCESS == "spotify" ]]; then
         # Spotify:
         # Next track: button 8
         # Prev Track: button 9
