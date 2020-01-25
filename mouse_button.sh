@@ -62,6 +62,25 @@ if [ $MOUSE_BUTTON == 8 ] || [ $MOUSE_BUTTON == 9 ]; then
                 fi
                 ;;
         esac
+    elif [[ $ACTIVE_WINDOW =~ "Oxygen Not Included" ]]; then
+        # When playing Oxygen Not included:
+        # Cancel: button 8
+        # Deconstruct: button 9
+        if [ $MOUSE_BUTTON -eq 8 ]; then
+            xdotool key --clearmodifiers c
+        elif [ $MOUSE_BUTTON -eq 9 ]; then
+            xdotool key --clearmodifiers x
+        fi
+    elif [[ $ACTIVE_WINDOW =~ "Spotify Premium" ]]; then
+        # Spotify:
+        # Next track: button 8
+        # Prev Track: button 9
+        echo $MOUSE_BUTTON
+        if [ $MOUSE_BUTTON -eq 8 ]; then
+            xdotool key XF86AudioNext
+        elif [ $MOUSE_BUTTON -eq 9 ]; then
+            xdotool key XF86AudioPrev
+        fi
     fi
 # Alt + Mouse 4 or 5
 elif [ $MOUSE_BUTTON == "alt4" ] || [ $MOUSE_BUTTON == "alt5" ]; then
