@@ -67,12 +67,12 @@ if [[ $MOUSE_BUTTON -eq 8 ]] || [[ $MOUSE_BUTTON -eq 9 ]]; then
         esac
     elif [[ $ACTIVE_WINDOW_PROCESS == "OxygenNotInclud" ]]; then
         # When playing Oxygen Not included:
-        # Cancel: button 8
-        # Deconstruct: button 9
+        # Copy: button 8
+        # Copy Settings: button 9
         if [ $MOUSE_BUTTON -eq 8 ]; then
-            xdotool key --clearmodifiers c
+            xdotool type b
         elif [ $MOUSE_BUTTON -eq 9 ]; then
-            xdotool key --clearmodifiers x
+            xdotool type '\'
         fi
     elif [[ $ACTIVE_WINDOW_PROCESS == "spotify" ]]; then
         # Spotify:
